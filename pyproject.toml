@@ -1,0 +1,20 @@
+[project]
+name = "scriptumone"
+version = "0.1.0"
+description = "A personal assistant platform designed to capture, organise, and provide quick access to important information in one place"
+authors = [
+    {name = "Alex",email = "alex.nuclearboy@gmail.com"}
+]
+license = {text = "Apache-2.0"}
+readme = "README.md"
+requires-python = ">=3.12,<4.0"
+dependencies = [
+    "django (>=5.2.5,<6.0.0)",
+    "gunicorn (>=23.0.0,<24.0.0)",
+    "django-environ (>=0.12.0,<0.13.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
